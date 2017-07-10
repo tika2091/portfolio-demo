@@ -1,0 +1,46 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+}
+
+
+
+#resume{
+
+	position:absolute;
+	top:50px;
+	left:50px;
+	background: rgba(0, 0, 0, 0.4);
+	width:95%;
+	height:100%;
+	display:none;
+}
+
+#resume-page{
+	background-color:white;
+	position:absolute;
+	margin:auto;
+	width:95%;
+	height:720px;
+	border:2px solid white;
+	border-radius: 5px;
+
+}
+
+
+.close{
+	position:absolute;
+	right:10px;
+	top:10px;
+	width:35px;
+	height:35px;
+	border:2px solid black;
+	text-align:center;
+	border-radius:25px;
+}
+
+.close p{
+	font-size:130%;
+	margin-top:5px;
+}
