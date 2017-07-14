@@ -98,7 +98,6 @@ header{
 	height:200px;
 /*	border:1px solid #73C6B6;*/
 	background-color:rgba(177, 213, 239, 0.11);
-	/*background-color:rgba(140, 243, 234, 0.04);*/
     border-radius: 20px;
 	box-shadow:1px 1px rgba(255, 255, 232, 0.2);
 	border-radius: 5px;
@@ -122,6 +121,7 @@ header{
 
 
 	#about-page{
+		border:1px solid #fff;
 	/*	background-color:#fff;*/
 		border-radius: 10px;
 		}
@@ -133,7 +133,7 @@ header{
 		margin-top:10px;
 		color:#000;
 		border-radius: 15px;
-		background-color:#fff;
+		/*background-color:#fff;*/
 		height:456px;
 		}
 
@@ -145,7 +145,7 @@ header{
 	width:70%;
 	margin:auto;
 	font-size: 150%;
-	color:#000;
+	color:#fff;
 	text-align:center;
 	padding-top:40px;
 /*	padding:20px;*/
@@ -156,7 +156,8 @@ header{
  /*.............................................................................*/
 
 	.image-section-container{
-		background-color:#fff;
+		/*border:1px solid #fff;*/
+		/*background-color:#fff;*/
 		border-radius:10px;
 		margin-top:10px;
 		}
@@ -164,7 +165,7 @@ header{
 
 	#image-section #find-me{
 		margin-top:50px;
-		color:#000;
+		color:#fff;
 		}
 
 	#image-section #profile, #find-me, #social-link{
@@ -206,12 +207,16 @@ header{
 		transition:.05s;
 	}*/
 
-#image-section #social-link .img:hover img{
-		/*background-color:rgba(177, 213, 239, 0.11);*/
+/*#image-section #social-link .img:hover img{
 		filter:blur(1px) brightness(100%) opacity(80%);
 		transition:.05s;
-	}
+	}*/
 
+#image-section #social-link .img:hover{
+    opacity: 0.5;
+    filter: alpha(opacity=50);
+}
+	
 
 	
 	#image-section #social-link img{
@@ -368,7 +373,7 @@ header{
 
 
 	.work-section #col{
-		background-color:#fff;
+	/*	background-color:#fff;*/
 		}
 		
 
@@ -493,12 +498,13 @@ header{
 		}
 
 
+.social-media #img-col #img-col-img .smpic:hover{
+	opacity: 0.5;
+    filter: alpha(opacity=50);
+	}
 
 
-
-
-
-	.social-media #img-col #img-col-img img:hover + .bigpic{
+.social-media #img-col #img-col-img img:hover + .bigpic{
 		width:150px;
 		height:150px;
 		transition:0.3s
@@ -520,8 +526,8 @@ header{
 		height:100%;
 		transition: all 1s ease-in;
 		}
-*/
 
+*/
 
 
 .contact-section .sneha{
@@ -632,7 +638,7 @@ width:100%;
 
 	.jumbotron .title{
 		margin-top:120px;
-		margin-bottom:150px;
+		margin-bottom:100px;
 		}
 
 
