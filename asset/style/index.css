@@ -372,8 +372,9 @@ header{
 		}
 
 
-	.work-section #col{
-	/*	background-color:#fff;*/
+	.work-section #col .app-name{
+		margin:auto;
+	color:#e0643e;
 		}
 		
 
