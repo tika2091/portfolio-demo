@@ -1,0 +1,99 @@
+@media screen and (max-width: 768px) {
+    .jumbotron .title {
+        margin-top: 120px;
+        margin-bottom: 100px;
+    }
+    .jumbotron .title p {
+        /*color:palegoldenrod;*/
+        font-size: 90%;
+    }
+    .jumbotron .title {
+        margin-top: 50px;
+        margin-bottom: 220px;
+        height: 150px;
+        /* border:3px solid red; */
+        background-color: rgba(140, 243, 234, 0.04);
+        border-radius: 20px;
+        box-shadow: 1px 1px rgba(255, 255, 232, 0.2);
+        border-radius: 5px;
+        font-family: Bellefair;
+    }
+    .title p1 {
+        font-size: 240%;
+        margin-top: 40px;
+    }
+    /*...........................about me section........................*/
+    .para {
+        font-size: 80%;
+    }
+    .para p {
+        width: 90%;
+    }
+    .mid-bar h3 {
+        font-size: 40px;
+    }
+    #image-section #social-link .img {
+        width: 60px;
+        height: 60px;
+    }
+    .skill-section .right-bar {
+        width: 20%;
+        float: left;
+        height: 40px;
+        /*background-color:green;*/
+    }
+    .skill-section .mid-bar {
+        text-align: center;
+        width: 60%;
+        height: 40px;
+        float: left;
+        color: #fff;
+        /*	background-color:red;*/
+    }
+    .skill-section .left-bar {
+        width: 20%;
+        float: left;
+        height: 40px;
+        /*	background-color:green;*/
+    }
+    .mid-bar h3 {
+        margin: auto;
+        margin-top: 8px;
+        font-size: 120%;
+    }
+    .skill-section hr {
+        width: 90%;
+    }
+    .skill-section .left-bar hr {
+        float: left;
+    }
+    .skill-section .right-bar hr {
+        float: right;
+    }
+    #contact-me .contact-name {
+        margin-top: 10px;
+    }
+    .social-media img {
+        width: 100%;
+        height: 100%;
+    }
+    .messenger-icon {
+        padding-left: 5px;
+        color: #fff;
+        font-size: 100%;
+    }
+    .messenger-icon img {
+        width: 20px;
+        height: 20px;
+    }
+    .home-button {
+        position: absolute;
+        bottom: 10px;
+        left: 10px;
+        /*	background-color:red;*/
+    }
+    .home-button img {
+        width: 30px;
+        height: 30px;
+    }
+    
